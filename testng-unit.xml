@@ -1,0 +1,16 @@
+
+
+<suite name="UnitSuite">
+
+    <test name="UnitTests">
+        <packages>
+            <package name="tests.unit.auth"/>
+            <package name="tests.unit.login"/>
+            <package name="tests.unit.register"/>
+            <package name="tests.unit.cart"/>
+            <package name="tests.unit.checkout"/>
+            <package name="tests.unit.product"/>
+        </packages>
+    </test>
+
+</suite>

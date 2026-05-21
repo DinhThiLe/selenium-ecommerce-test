@@ -1,0 +1,14 @@
+
+
+<suite name="IntegrationSuite">
+
+    <test name="IntegrationTests">
+        <packages>
+            <package name="tests.integration.auth"/>
+            <package name="tests.integration.product"/>
+            <package name="tests.integration.cart"/>
+            <package name="tests.integration.checkout"/>
+        </packages>
+    </test>
+
+</suite>

@@ -1,0 +1,359 @@
+<html>
+<head>
+<title>TestNG:  IntegrationTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>IntegrationTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 21 11:13:11 ICT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>712 seconds (712812 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.integration.checkout.CheckoutIntegrationTests.INT_23_Login_Checkout_Payment()'><b>INT_23_Login_Checkout_Payment</b><br>Test class: tests.integration.checkout.CheckoutIntegrationTests</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),&apos;Order Placed&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51020}, goog:processID: 34136, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51020/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb19126081ae439d0c0f791c0aeba157
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at base.BaseTest.waitVisible(BaseTest.java:59)
+	at tests.integration.checkout.CheckoutIntegrationTests.INT_23_Login_Checkout_Payment(CheckoutIntegrationTests.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace294900736", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace294900736'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),&apos;Order Placed&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51020}, goog:processID: 34136, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51020/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb19126081ae439d0c0f791c0aeba157
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at base.BaseTest.waitVisible(BaseTest.java:59)
+	at tests.integration.checkout.CheckoutIntegrationTests.INT_23_Login_Checkout_Payment(CheckoutIntegrationTests.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>39</td>
+<td>tests.integration.checkout.CheckoutIntegrationTests@6c4f9535</td></tr>
+<tr>
+<td title='tests.integration.cart.CartIntegrationTests.INT_19_View_UpdateCart()'><b>INT_19_View_UpdateCart</b><br>Test class: tests.integration.cart.CartIntegrationTests</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[text()=&apos;3&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53710}, goog:processID: 4564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53710/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4771c8a14a2b1e89ef59af913d8f01e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at base.BaseTest.waitVisible(BaseTest.java:59)
+	at tests.integration.cart.CartIntegrationTests.INT_19_View_UpdateCart(CartIntegrationTests.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1985793146", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1985793146'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[text()=&apos;3&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53710}, goog:processID: 4564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53710/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4771c8a14a2b1e89ef59af913d8f01e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at base.BaseTest.waitVisible(BaseTest.java:59)
+	at tests.integration.cart.CartIntegrationTests.INT_19_View_UpdateCart(CartIntegrationTests.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>37</td>
+<td>tests.integration.cart.CartIntegrationTests@51650883</td></tr>
+<tr>
+<td title='tests.integration.auth.AuthIntegrationTests.INT_08_Login_Retry()'><b>INT_08_Login_Retry</b><br>Test class: tests.integration.auth.AuthIntegrationTests</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(), &apos;incorrect email or password&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63660}, goog:processID: 14956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63660/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fdcf15da171bf79171c99c1c9f32014e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at base.BaseTest.waitVisible(BaseTest.java:59)
+	at tests.integration.auth.AuthIntegrationTests.INT_08_Login_Retry(AuthIntegrationTests.java:139)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1971858114", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1971858114'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(), &apos;incorrect email or password&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63660}, goog:processID: 14956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63660/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fdcf15da171bf79171c99c1c9f32014e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at base.BaseTest.waitVisible(BaseTest.java:59)
+	at tests.integration.auth.AuthIntegrationTests.INT_08_Login_Retry(AuthIntegrationTests.java:139)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>21</td>
+<td>tests.integration.auth.AuthIntegrationTests@2449cff7</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.integration.auth.AuthIntegrationTests.INT_06_Login_Search()'><b>INT_06_Login_Search</b><br>Test class: tests.integration.auth.AuthIntegrationTests</td>
+<td></td>
+<td>22</td>
+<td>tests.integration.auth.AuthIntegrationTests@2449cff7</td></tr>
+<tr>
+<td title='tests.integration.auth.AuthIntegrationTests.INT_09_Login_Product()'><b>INT_09_Login_Product</b><br>Test class: tests.integration.auth.AuthIntegrationTests</td>
+<td></td>
+<td>11</td>
+<td>tests.integration.auth.AuthIntegrationTests@2449cff7</td></tr>
+<tr>
+<td title='tests.integration.product.ProductIntegrationTests.INT_11_Search_And_Add_To_Cart()'><b>INT_11_Search_And_Add_To_Cart</b><br>Test class: tests.integration.product.ProductIntegrationTests</td>
+<td></td>
+<td>19</td>
+<td>tests.integration.product.ProductIntegrationTests@57f791c6</td></tr>
+<tr>
+<td title='tests.integration.product.ProductIntegrationTests.INT_16_Search_Category_Cart()'><b>INT_16_Search_Category_Cart</b><br>Test class: tests.integration.product.ProductIntegrationTests</td>
+<td></td>
+<td>19</td>
+<td>tests.integration.product.ProductIntegrationTests@57f791c6</td></tr>
+<tr>
+<td title='tests.integration.product.ProductIntegrationTests.INT_12_Search_ViewProduct()'><b>INT_12_Search_ViewProduct</b><br>Test class: tests.integration.product.ProductIntegrationTests</td>
+<td></td>
+<td>8</td>
+<td>tests.integration.product.ProductIntegrationTests@57f791c6</td></tr>
+<tr>
+<td title='tests.integration.auth.AuthIntegrationTests.INT_07_Login_AddCart()'><b>INT_07_Login_AddCart</b><br>Test class: tests.integration.auth.AuthIntegrationTests</td>
+<td></td>
+<td>9</td>
+<td>tests.integration.auth.AuthIntegrationTests@2449cff7</td></tr>
+<tr>
+<td title='tests.integration.product.ProductIntegrationTests.INT_15_Search_AddMulti()'><b>INT_15_Search_AddMulti</b><br>Test class: tests.integration.product.ProductIntegrationTests</td>
+<td></td>
+<td>15</td>
+<td>tests.integration.product.ProductIntegrationTests@57f791c6</td></tr>
+<tr>
+<td title='tests.integration.auth.AuthIntegrationTests.INT_02_Register_Logout()'><b>INT_02_Register_Logout</b><br>Test class: tests.integration.auth.AuthIntegrationTests</td>
+<td></td>
+<td>25</td>
+<td>tests.integration.auth.AuthIntegrationTests@2449cff7</td></tr>
+<tr>
+<td title='tests.integration.checkout.CheckoutIntegrationTests.INT_20_Checkout_NoLogin()'><b>INT_20_Checkout_NoLogin</b><br>Test class: tests.integration.checkout.CheckoutIntegrationTests</td>
+<td></td>
+<td>8</td>
+<td>tests.integration.checkout.CheckoutIntegrationTests@6c4f9535</td></tr>
+<tr>
+<td title='tests.integration.product.ProductIntegrationTests.INT_13_Search_Special()'><b>INT_13_Search_Special</b><br>Test class: tests.integration.product.ProductIntegrationTests</td>
+<td></td>
+<td>21</td>
+<td>tests.integration.product.ProductIntegrationTests@57f791c6</td></tr>
+<tr>
+<td title='tests.integration.auth.AuthIntegrationTests.INT_05_Login_Logout()'><b>INT_05_Login_Logout</b><br>Test class: tests.integration.auth.AuthIntegrationTests</td>
+<td></td>
+<td>15</td>
+<td>tests.integration.auth.AuthIntegrationTests@2449cff7</td></tr>
+<tr>
+<td title='tests.integration.auth.AuthIntegrationTests.INT_10_Login_Contact()'><b>INT_10_Login_Contact</b><br>Test class: tests.integration.auth.AuthIntegrationTests</td>
+<td></td>
+<td>11</td>
+<td>tests.integration.auth.AuthIntegrationTests@2449cff7</td></tr>
+<tr>
+<td title='tests.integration.product.ProductIntegrationTests.INT_14_Search_Invalid()'><b>INT_14_Search_Invalid</b><br>Test class: tests.integration.product.ProductIntegrationTests</td>
+<td></td>
+<td>16</td>
+<td>tests.integration.product.ProductIntegrationTests@57f791c6</td></tr>
+<tr>
+<td title='tests.integration.cart.CartIntegrationTests.INT_22_Empty_Cart_Checkout()'><b>INT_22_Empty_Cart_Checkout</b><br>Test class: tests.integration.cart.CartIntegrationTests</td>
+<td></td>
+<td>16</td>
+<td>tests.integration.cart.CartIntegrationTests@51650883</td></tr>
+<tr>
+<td title='tests.integration.product.ProductIntegrationTests.INT_24_Write_Review_Product()'><b>INT_24_Write_Review_Product</b><br>Test class: tests.integration.product.ProductIntegrationTests</td>
+<td></td>
+<td>12</td>
+<td>tests.integration.product.ProductIntegrationTests@57f791c6</td></tr>
+<tr>
+<td title='tests.integration.cart.CartIntegrationTests.INT_18_Open_Product_Add_Add_Cart()'><b>INT_18_Open_Product_Add_Add_Cart</b><br>Test class: tests.integration.cart.CartIntegrationTests</td>
+<td></td>
+<td>6</td>
+<td>tests.integration.cart.CartIntegrationTests@51650883</td></tr>
+<tr>
+<td title='tests.integration.auth.AuthIntegrationTests.INT_01_Register_New_Account()'><b>INT_01_Register_New_Account</b><br>Test class: tests.integration.auth.AuthIntegrationTests</td>
+<td></td>
+<td>17</td>
+<td>tests.integration.auth.AuthIntegrationTests@2449cff7</td></tr>
+<tr>
+<td title='tests.integration.cart.CartIntegrationTests.INT_21_Remove_Product_From_Cart()'><b>INT_21_Remove_Product_From_Cart</b><br>Test class: tests.integration.cart.CartIntegrationTests</td>
+<td></td>
+<td>7</td>
+<td>tests.integration.cart.CartIntegrationTests@51650883</td></tr>
+<tr>
+<td title='tests.integration.auth.AuthIntegrationTests.INT_03_Register_Delete()'><b>INT_03_Register_Delete</b><br>Test class: tests.integration.auth.AuthIntegrationTests</td>
+<td></td>
+<td>18</td>
+<td>tests.integration.auth.AuthIntegrationTests@2449cff7</td></tr>
+<tr>
+<td title='tests.integration.auth.AuthIntegrationTests.INT_04_Register_Missing()'><b>INT_04_Register_Missing</b><br>Test class: tests.integration.auth.AuthIntegrationTests</td>
+<td></td>
+<td>3</td>
+<td>tests.integration.auth.AuthIntegrationTests@2449cff7</td></tr>
+<tr>
+<td title='tests.integration.cart.CartIntegrationTests.INT_17_Add_And_View_Cart()'><b>INT_17_Add_And_View_Cart</b><br>Test class: tests.integration.cart.CartIntegrationTests</td>
+<td></td>
+<td>16</td>
+<td>tests.integration.cart.CartIntegrationTests@51650883</td></tr>
+</table><p>
+</body>
+</html>

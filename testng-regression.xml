@@ -1,0 +1,34 @@
+
+
+<suite name="AutomationRegressionSuite">
+
+    <test name="UnitTests">
+        <packages>
+            <package name="tests.unit.auth"/>
+            <package name="tests.unit.login"/>
+            <package name="tests.unit.register"/>
+            <package name="tests.unit.cart"/>
+            <package name="tests.unit.checkout"/>
+            <package name="tests.unit.product"/>
+        </packages>
+    </test>
+
+    <test name="IntegrationTests">
+        <packages>
+            <package name="tests.integration.auth"/>
+            <package name="tests.integration.product"/>
+            <package name="tests.integration.cart"/>
+            <package name="tests.integration.checkout"/>
+        </packages>
+    </test>
+
+    <test name="SystemTests">
+        <packages>
+            <package name="tests.system.auth"/>
+            <package name="tests.system.product"/>
+            <package name="tests.system.cart"/>
+            <package name="tests.system.ecommerce"/>
+        </packages>
+    </test>
+
+</suite>

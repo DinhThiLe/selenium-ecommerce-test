@@ -1,0 +1,14 @@
+
+
+<suite name="SystemSuite">
+
+    <test name="SystemTests">
+        <packages>
+            <package name="tests.system.auth"/>
+            <package name="tests.system.product"/>
+            <package name="tests.system.cart"/>
+            <package name="tests.system.ecommerce"/>
+        </packages>
+    </test>
+
+</suite>

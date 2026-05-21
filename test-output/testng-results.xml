@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="74" passed="70" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-21T11:13:11 ICT" name="AutomationRegressionSuite" finished-at="2026-05-21T11:34:10 ICT" duration-ms="1258907">
+    <groups>
+    </groups>
+    <test started-at="2026-05-21T11:13:11 ICT" name="UnitTests" finished-at="2026-05-21T11:13:11 ICT" duration-ms="141">
+      <class name="tests.unit.register.RegisterUnitTests">
+        <test-method signature="UNIT_16_Validate_Register_Data()[pri:0, instance:tests.unit.register.RegisterUnitTests@2cab9998]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_16_Validate_Register_Data" finished-at="2026-05-21T11:13:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_16_Validate_Register_Data -->
+      </class> <!-- tests.unit.register.RegisterUnitTests -->
+      <class name="tests.unit.auth.AuthUnitTests">
+        <test-method signature="UNIT_01_Validate_Email()[pri:0, instance:tests.unit.auth.AuthUnitTests@2f162cc0]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_01_Validate_Email" finished-at="2026-05-21T11:13:11 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_01_Validate_Email -->
+        <test-method signature="UNIT_02_Validate_Email_Invalid()[pri:0, instance:tests.unit.auth.AuthUnitTests@2f162cc0]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_02_Validate_Email_Invalid" finished-at="2026-05-21T11:13:11 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_02_Validate_Email_Invalid -->
+        <test-method signature="UNIT_05_Password_Strength()[pri:0, instance:tests.unit.auth.AuthUnitTests@2f162cc0]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_05_Password_Strength" finished-at="2026-05-21T11:13:11 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_05_Password_Strength -->
+        <test-method signature="UNIT_06_Password_TooShort()[pri:0, instance:tests.unit.auth.AuthUnitTests@2f162cc0]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_06_Password_TooShort" finished-at="2026-05-21T11:13:11 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_06_Password_TooShort -->
+        <test-method signature="UNIT_07_Validate_Password()[pri:0, instance:tests.unit.auth.AuthUnitTests@2f162cc0]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_07_Validate_Password" finished-at="2026-05-21T11:13:11 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_07_Validate_Password -->
+        <test-method signature="UNIT_08_Validate_Password_Invalid()[pri:0, instance:tests.unit.auth.AuthUnitTests@2f162cc0]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_08_Validate_Password_Invalid" finished-at="2026-05-21T11:13:11 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_08_Validate_Password_Invalid -->
+        <test-method signature="UNIT_09_Validate_Empty_Email()[pri:0, instance:tests.unit.auth.AuthUnitTests@2f162cc0]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_09_Validate_Empty_Email" finished-at="2026-05-21T11:13:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_09_Validate_Empty_Email -->
+        <test-method signature="UNIT_17_Validate_Empty_Password()[pri:0, instance:tests.unit.auth.AuthUnitTests@2f162cc0]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_17_Validate_Empty_Password" finished-at="2026-05-21T11:13:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_17_Validate_Empty_Password -->
+      </class> <!-- tests.unit.auth.AuthUnitTests -->
+      <class name="tests.unit.product.ProductUnitTests">
+        <test-method signature="UNIT_10_Validate_Search_Keyword()[pri:0, instance:tests.unit.product.ProductUnitTests@3a1d593e]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_10_Validate_Search_Keyword" finished-at="2026-05-21T11:13:11 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_10_Validate_Search_Keyword -->
+        <test-method signature="UNIT_11_Calculate_Discount()[pri:0, instance:tests.unit.product.ProductUnitTests@3a1d593e]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_11_Calculate_Discount" finished-at="2026-05-21T11:13:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_11_Calculate_Discount -->
+        <test-method signature="UNIT_13_Check_Product_Name()[pri:0, instance:tests.unit.product.ProductUnitTests@3a1d593e]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_13_Check_Product_Name" finished-at="2026-05-21T11:13:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_13_Check_Product_Name -->
+        <test-method signature="UNIT_14_Check_Product_Price()[pri:0, instance:tests.unit.product.ProductUnitTests@3a1d593e]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_14_Check_Product_Price" finished-at="2026-05-21T11:13:11 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_14_Check_Product_Price -->
+        <test-method signature="UNIT_20_Validate_Product_Image()[pri:0, instance:tests.unit.product.ProductUnitTests@3a1d593e]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_20_Validate_Product_Image" finished-at="2026-05-21T11:13:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_20_Validate_Product_Image -->
+        <test-method signature="UNIT_21_Validate_Popup_Message()[pri:0, instance:tests.unit.product.ProductUnitTests@3a1d593e]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_21_Validate_Popup_Message" finished-at="2026-05-21T11:13:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_21_Validate_Popup_Message -->
+      </class> <!-- tests.unit.product.ProductUnitTests -->
+      <class name="tests.unit.login.LoginUnitTests">
+        <test-method signature="UNIT_15_Validate_Login_Data()[pri:0, instance:tests.unit.login.LoginUnitTests@71c5b236]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_15_Validate_Login_Data" finished-at="2026-05-21T11:13:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_15_Validate_Login_Data -->
+      </class> <!-- tests.unit.login.LoginUnitTests -->
+      <class name="tests.unit.checkout.CheckoutUnitTests">
+        <test-method signature="UNIT_18_Validate_Checkout_Data()[pri:0, instance:tests.unit.checkout.CheckoutUnitTests@669513d8]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_18_Validate_Checkout_Data" finished-at="2026-05-21T11:13:11 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_18_Validate_Checkout_Data -->
+      </class> <!-- tests.unit.checkout.CheckoutUnitTests -->
+      <class name="tests.unit.cart.CartUnitTests">
+        <test-method signature="UNIT_03_Calculate_Total_Cart()[pri:0, instance:tests.unit.cart.CartUnitTests@2f7a7219]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_03_Calculate_Total_Cart" finished-at="2026-05-21T11:13:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_03_Calculate_Total_Cart -->
+        <test-method signature="UNIT_04_Empty_Cart_Total()[pri:0, instance:tests.unit.cart.CartUnitTests@2f7a7219]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_04_Empty_Cart_Total" finished-at="2026-05-21T11:13:11 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_04_Empty_Cart_Total -->
+        <test-method signature="UNIT_12_Calculate_Cart_Quantity()[pri:0, instance:tests.unit.cart.CartUnitTests@2f7a7219]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_12_Calculate_Cart_Quantity" finished-at="2026-05-21T11:13:11 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_12_Calculate_Cart_Quantity -->
+        <test-method signature="UNIT_19_Validate_Cart_Not_Empty()[pri:0, instance:tests.unit.cart.CartUnitTests@2f7a7219]" started-at="2026-05-21T11:13:11 ICT" name="UNIT_19_Validate_Cart_Not_Empty" finished-at="2026-05-21T11:13:11 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UNIT_19_Validate_Cart_Not_Empty -->
+      </class> <!-- tests.unit.cart.CartUnitTests -->
+    </test> <!-- UnitTests -->
+    <test started-at="2026-05-21T11:13:11 ICT" name="IntegrationTests" finished-at="2026-05-21T11:25:04 ICT" duration-ms="712812">
+      <class name="tests.integration.checkout.CheckoutIntegrationTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.checkout.CheckoutIntegrationTests@6c4f9535]" started-at="2026-05-21T11:23:31 ICT" name="setup" finished-at="2026-05-21T11:23:44 ICT" duration-ms="12702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_20_Checkout_NoLogin()[pri:0, instance:tests.integration.checkout.CheckoutIntegrationTests@6c4f9535]" started-at="2026-05-21T11:23:44 ICT" name="INT_20_Checkout_NoLogin" finished-at="2026-05-21T11:23:53 ICT" duration-ms="8727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_20_Checkout_NoLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.checkout.CheckoutIntegrationTests@6c4f9535]" started-at="2026-05-21T11:23:53 ICT" name="tearDown" finished-at="2026-05-21T11:23:53 ICT" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.checkout.CheckoutIntegrationTests@6c4f9535]" started-at="2026-05-21T11:23:53 ICT" name="setup" finished-at="2026-05-21T11:24:23 ICT" duration-ms="30117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_23_Login_Checkout_Payment()[pri:0, instance:tests.integration.checkout.CheckoutIntegrationTests@6c4f9535]" started-at="2026-05-21T11:24:23 ICT" name="INT_23_Login_Checkout_Payment" finished-at="2026-05-21T11:25:03 ICT" duration-ms="39493" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Order Placed')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51020}, goog:processID: 34136, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51020/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb19126081ae439d0c0f791c0aeba157]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Order Placed')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51020}, goog:processID: 34136, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51020/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb19126081ae439d0c0f791c0aeba157
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at base.BaseTest.waitVisible(BaseTest.java:59)
+at tests.integration.checkout.CheckoutIntegrationTests.INT_23_Login_Checkout_Payment(CheckoutIntegrationTests.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_23_Login_Checkout_Payment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.checkout.CheckoutIntegrationTests@6c4f9535]" started-at="2026-05-21T11:25:03 ICT" name="tearDown" finished-at="2026-05-21T11:25:04 ICT" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.integration.checkout.CheckoutIntegrationTests -->
+      <class name="tests.integration.cart.CartIntegrationTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:20:59 ICT" name="setup" finished-at="2026-05-21T11:21:10 ICT" duration-ms="10988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_17_Add_And_View_Cart()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:21:10 ICT" name="INT_17_Add_And_View_Cart" finished-at="2026-05-21T11:21:26 ICT" duration-ms="16262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_17_Add_And_View_Cart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:21:26 ICT" name="tearDown" finished-at="2026-05-21T11:21:26 ICT" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:21:26 ICT" name="setup" finished-at="2026-05-21T11:21:37 ICT" duration-ms="10975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_18_Open_Product_Add_Add_Cart()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:21:37 ICT" name="INT_18_Open_Product_Add_Add_Cart" finished-at="2026-05-21T11:21:44 ICT" duration-ms="6544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_18_Open_Product_Add_Add_Cart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:21:44 ICT" name="tearDown" finished-at="2026-05-21T11:21:44 ICT" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:21:44 ICT" name="setup" finished-at="2026-05-21T11:22:04 ICT" duration-ms="19479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_19_View_UpdateCart()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:22:04 ICT" name="INT_19_View_UpdateCart" finished-at="2026-05-21T11:22:41 ICT" duration-ms="37255" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //button[text()='3'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53710}, goog:processID: 4564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53710/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4771c8a14a2b1e89ef59af913d8f01e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[text()='3'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53710}, goog:processID: 4564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53710/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4771c8a14a2b1e89ef59af913d8f01e
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at base.BaseTest.waitVisible(BaseTest.java:59)
+at tests.integration.cart.CartIntegrationTests.INT_19_View_UpdateCart(CartIntegrationTests.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_19_View_UpdateCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:22:41 ICT" name="tearDown" finished-at="2026-05-21T11:22:41 ICT" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:22:41 ICT" name="setup" finished-at="2026-05-21T11:22:54 ICT" duration-ms="12488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_21_Remove_Product_From_Cart()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:22:54 ICT" name="INT_21_Remove_Product_From_Cart" finished-at="2026-05-21T11:23:01 ICT" duration-ms="7614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_21_Remove_Product_From_Cart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:23:01 ICT" name="tearDown" finished-at="2026-05-21T11:23:02 ICT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:23:02 ICT" name="setup" finished-at="2026-05-21T11:23:14 ICT" duration-ms="12590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_22_Empty_Cart_Checkout()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:23:14 ICT" name="INT_22_Empty_Cart_Checkout" finished-at="2026-05-21T11:23:31 ICT" duration-ms="16806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_22_Empty_Cart_Checkout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.cart.CartIntegrationTests@51650883]" started-at="2026-05-21T11:23:31 ICT" name="tearDown" finished-at="2026-05-21T11:23:31 ICT" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.integration.cart.CartIntegrationTests -->
+      <class name="tests.integration.product.ProductIntegrationTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:17:38 ICT" name="setup" finished-at="2026-05-21T11:17:52 ICT" duration-ms="14598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_11_Search_And_Add_To_Cart()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:17:52 ICT" name="INT_11_Search_And_Add_To_Cart" finished-at="2026-05-21T11:18:12 ICT" duration-ms="19982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_11_Search_And_Add_To_Cart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:18:12 ICT" name="tearDown" finished-at="2026-05-21T11:18:13 ICT" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:18:13 ICT" name="setup" finished-at="2026-05-21T11:18:25 ICT" duration-ms="12530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_12_Search_ViewProduct()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:18:25 ICT" name="INT_12_Search_ViewProduct" finished-at="2026-05-21T11:18:34 ICT" duration-ms="8477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_12_Search_ViewProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:18:34 ICT" name="tearDown" finished-at="2026-05-21T11:18:34 ICT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:18:34 ICT" name="setup" finished-at="2026-05-21T11:18:43 ICT" duration-ms="9406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_13_Search_Special()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:18:43 ICT" name="INT_13_Search_Special" finished-at="2026-05-21T11:19:05 ICT" duration-ms="21561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_13_Search_Special -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:19:05 ICT" name="tearDown" finished-at="2026-05-21T11:19:05 ICT" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:19:05 ICT" name="setup" finished-at="2026-05-21T11:19:12 ICT" duration-ms="7274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_14_Search_Invalid()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:19:12 ICT" name="INT_14_Search_Invalid" finished-at="2026-05-21T11:19:29 ICT" duration-ms="16938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_14_Search_Invalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:19:29 ICT" name="tearDown" finished-at="2026-05-21T11:19:29 ICT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:19:29 ICT" name="setup" finished-at="2026-05-21T11:19:39 ICT" duration-ms="9707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_15_Search_AddMulti()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:19:39 ICT" name="INT_15_Search_AddMulti" finished-at="2026-05-21T11:19:55 ICT" duration-ms="15759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_15_Search_AddMulti -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:19:55 ICT" name="tearDown" finished-at="2026-05-21T11:19:56 ICT" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:19:56 ICT" name="setup" finished-at="2026-05-21T11:20:14 ICT" duration-ms="18156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_16_Search_Category_Cart()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:20:14 ICT" name="INT_16_Search_Category_Cart" finished-at="2026-05-21T11:20:34 ICT" duration-ms="19569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_16_Search_Category_Cart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:20:34 ICT" name="tearDown" finished-at="2026-05-21T11:20:34 ICT" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:20:34 ICT" name="setup" finished-at="2026-05-21T11:20:46 ICT" duration-ms="12108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_24_Write_Review_Product()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:20:46 ICT" name="INT_24_Write_Review_Product" finished-at="2026-05-21T11:20:59 ICT" duration-ms="12460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_24_Write_Review_Product -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.product.ProductIntegrationTests@57f791c6]" started-at="2026-05-21T11:20:59 ICT" name="tearDown" finished-at="2026-05-21T11:20:59 ICT" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.integration.product.ProductIntegrationTests -->
+      <class name="tests.integration.auth.AuthIntegrationTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:13:11 ICT" name="setup" finished-at="2026-05-21T11:13:24 ICT" duration-ms="13405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_01_Register_New_Account()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:13:24 ICT" name="INT_01_Register_New_Account" finished-at="2026-05-21T11:13:42 ICT" duration-ms="17762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_01_Register_New_Account -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:13:42 ICT" name="tearDown" finished-at="2026-05-21T11:13:42 ICT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:13:42 ICT" name="setup" finished-at="2026-05-21T11:13:52 ICT" duration-ms="10029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_02_Register_Logout()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:13:52 ICT" name="INT_02_Register_Logout" finished-at="2026-05-21T11:14:18 ICT" duration-ms="25913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_02_Register_Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:14:18 ICT" name="tearDown" finished-at="2026-05-21T11:14:19 ICT" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:14:19 ICT" name="setup" finished-at="2026-05-21T11:14:30 ICT" duration-ms="11358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_03_Register_Delete()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:14:30 ICT" name="INT_03_Register_Delete" finished-at="2026-05-21T11:14:49 ICT" duration-ms="18988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_03_Register_Delete -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:14:49 ICT" name="tearDown" finished-at="2026-05-21T11:14:49 ICT" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:14:49 ICT" name="setup" finished-at="2026-05-21T11:14:59 ICT" duration-ms="9879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_04_Register_Missing()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:14:59 ICT" name="INT_04_Register_Missing" finished-at="2026-05-21T11:15:02 ICT" duration-ms="3254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_04_Register_Missing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:15:02 ICT" name="tearDown" finished-at="2026-05-21T11:15:03 ICT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:15:03 ICT" name="setup" finished-at="2026-05-21T11:15:12 ICT" duration-ms="9939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_05_Login_Logout()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:15:12 ICT" name="INT_05_Login_Logout" finished-at="2026-05-21T11:15:28 ICT" duration-ms="15937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_05_Login_Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:15:28 ICT" name="tearDown" finished-at="2026-05-21T11:15:29 ICT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:15:29 ICT" name="setup" finished-at="2026-05-21T11:15:39 ICT" duration-ms="9949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_06_Login_Search()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:15:39 ICT" name="INT_06_Login_Search" finished-at="2026-05-21T11:16:01 ICT" duration-ms="22116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_06_Login_Search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:16:01 ICT" name="tearDown" finished-at="2026-05-21T11:16:01 ICT" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:16:01 ICT" name="setup" finished-at="2026-05-21T11:16:11 ICT" duration-ms="9854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_07_Login_AddCart()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:16:11 ICT" name="INT_07_Login_AddCart" finished-at="2026-05-21T11:16:20 ICT" duration-ms="9243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_07_Login_AddCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:16:20 ICT" name="tearDown" finished-at="2026-05-21T11:16:20 ICT" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:16:20 ICT" name="setup" finished-at="2026-05-21T11:16:33 ICT" duration-ms="12558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_08_Login_Retry()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:16:33 ICT" name="INT_08_Login_Retry" finished-at="2026-05-21T11:16:55 ICT" duration-ms="21746" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(), 'incorrect email or password')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63660}, goog:processID: 14956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63660/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fdcf15da171bf79171c99c1c9f32014e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(), 'incorrect email or password')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63660}, goog:processID: 14956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63660/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fdcf15da171bf79171c99c1c9f32014e
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at base.BaseTest.waitVisible(BaseTest.java:59)
+at tests.integration.auth.AuthIntegrationTests.INT_08_Login_Retry(AuthIntegrationTests.java:139)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_08_Login_Retry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:16:55 ICT" name="tearDown" finished-at="2026-05-21T11:16:55 ICT" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:16:55 ICT" name="setup" finished-at="2026-05-21T11:17:03 ICT" duration-ms="8316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_09_Login_Product()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:17:03 ICT" name="INT_09_Login_Product" finished-at="2026-05-21T11:17:15 ICT" duration-ms="11989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_09_Login_Product -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:17:15 ICT" name="tearDown" finished-at="2026-05-21T11:17:16 ICT" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:17:16 ICT" name="setup" finished-at="2026-05-21T11:17:26 ICT" duration-ms="9605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="INT_10_Login_Contact()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:17:26 ICT" name="INT_10_Login_Contact" finished-at="2026-05-21T11:17:37 ICT" duration-ms="11885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- INT_10_Login_Contact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.integration.auth.AuthIntegrationTests@2449cff7]" started-at="2026-05-21T11:17:37 ICT" name="tearDown" finished-at="2026-05-21T11:17:38 ICT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.integration.auth.AuthIntegrationTests -->
+    </test> <!-- IntegrationTests -->
+    <test started-at="2026-05-21T11:25:04 ICT" name="SystemTests" finished-at="2026-05-21T11:34:10 ICT" duration-ms="545849">
+      <class name="tests.system.cart.CartSystemTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.cart.CartSystemTests@402f80f5]" started-at="2026-05-21T11:31:03 ICT" name="setup" finished-at="2026-05-21T11:31:13 ICT" duration-ms="9779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_09_Add_To_Cart_System()[pri:0, instance:tests.system.cart.CartSystemTests@402f80f5]" started-at="2026-05-21T11:31:13 ICT" name="SYS_09_Add_To_Cart_System" finished-at="2026-05-21T11:31:21 ICT" duration-ms="8073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_09_Add_To_Cart_System -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.cart.CartSystemTests@402f80f5]" started-at="2026-05-21T11:31:21 ICT" name="tearDown" finished-at="2026-05-21T11:31:21 ICT" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.cart.CartSystemTests@402f80f5]" started-at="2026-05-21T11:31:21 ICT" name="setup" finished-at="2026-05-21T11:31:31 ICT" duration-ms="10388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_10_Remove_From_Cart()[pri:0, instance:tests.system.cart.CartSystemTests@402f80f5]" started-at="2026-05-21T11:31:31 ICT" name="SYS_10_Remove_From_Cart" finished-at="2026-05-21T11:31:41 ICT" duration-ms="10086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_10_Remove_From_Cart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.cart.CartSystemTests@402f80f5]" started-at="2026-05-21T11:31:41 ICT" name="tearDown" finished-at="2026-05-21T11:31:42 ICT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.cart.CartSystemTests@402f80f5]" started-at="2026-05-21T11:31:42 ICT" name="setup" finished-at="2026-05-21T11:31:52 ICT" duration-ms="10195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_11_Update_Quantity()[pri:0, instance:tests.system.cart.CartSystemTests@402f80f5]" started-at="2026-05-21T11:31:52 ICT" name="SYS_11_Update_Quantity" finished-at="2026-05-21T11:32:02 ICT" duration-ms="10674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_11_Update_Quantity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.cart.CartSystemTests@402f80f5]" started-at="2026-05-21T11:32:02 ICT" name="tearDown" finished-at="2026-05-21T11:32:03 ICT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.system.cart.CartSystemTests -->
+      <class name="tests.system.ecommerce.EcommerceSystemTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:32:03 ICT" name="setup" finished-at="2026-05-21T11:32:13 ICT" duration-ms="10386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_12_Subscription_System()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:32:13 ICT" name="SYS_12_Subscription_System" finished-at="2026-05-21T11:32:23 ICT" duration-ms="10216" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Successfully subscribed!')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62065}, goog:processID: 24556, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62065/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b716f40931b78d1176cefbe0371dda56]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Successfully subscribed!')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Le\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62065}, goog:processID: 24556, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62065/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b716f40931b78d1176cefbe0371dda56
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at base.BaseTest.waitVisible(BaseTest.java:59)
+at tests.system.ecommerce.EcommerceSystemTests.SYS_12_Subscription_System(EcommerceSystemTests.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_12_Subscription_System -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:32:23 ICT" name="tearDown" finished-at="2026-05-21T11:32:24 ICT" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:32:24 ICT" name="setup" finished-at="2026-05-21T11:32:30 ICT" duration-ms="6139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_13_Contact_Us_System()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:32:30 ICT" name="SYS_13_Contact_Us_System" finished-at="2026-05-21T11:32:35 ICT" duration-ms="4950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_13_Contact_Us_System -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:32:35 ICT" name="tearDown" finished-at="2026-05-21T11:32:36 ICT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:32:36 ICT" name="setup" finished-at="2026-05-21T11:32:44 ICT" duration-ms="8154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_23_Scroll_Up()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:32:44 ICT" name="SYS_23_Scroll_Up" finished-at="2026-05-21T11:32:44 ICT" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_23_Scroll_Up -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:32:44 ICT" name="tearDown" finished-at="2026-05-21T11:32:44 ICT" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:32:44 ICT" name="setup" finished-at="2026-05-21T11:32:46 ICT" duration-ms="2070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_24_Scroll_Down()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:32:46 ICT" name="SYS_24_Scroll_Down" finished-at="2026-05-21T11:32:54 ICT" duration-ms="7624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_24_Scroll_Down -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:32:54 ICT" name="tearDown" finished-at="2026-05-21T11:32:54 ICT" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:32:54 ICT" name="setup" finished-at="2026-05-21T11:33:06 ICT" duration-ms="12043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_25_Navigate_Products()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:33:06 ICT" name="SYS_25_Navigate_Products" finished-at="2026-05-21T11:33:09 ICT" duration-ms="2663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_25_Navigate_Products -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:33:09 ICT" name="tearDown" finished-at="2026-05-21T11:33:09 ICT" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:33:09 ICT" name="setup" finished-at="2026-05-21T11:33:19 ICT" duration-ms="9635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_26_Navigate_TestCases()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:33:19 ICT" name="SYS_26_Navigate_TestCases" finished-at="2026-05-21T11:33:22 ICT" duration-ms="3514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_26_Navigate_TestCases -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:33:22 ICT" name="tearDown" finished-at="2026-05-21T11:33:22 ICT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:33:22 ICT" name="setup" finished-at="2026-05-21T11:33:33 ICT" duration-ms="10718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_27_Navigate_API()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:33:33 ICT" name="SYS_27_Navigate_API" finished-at="2026-05-21T11:33:38 ICT" duration-ms="4922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_27_Navigate_API -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:33:38 ICT" name="tearDown" finished-at="2026-05-21T11:33:38 ICT" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:33:38 ICT" name="setup" finished-at="2026-05-21T11:33:49 ICT" duration-ms="10413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_28_Navigate_Video()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:33:49 ICT" name="SYS_28_Navigate_Video" finished-at="2026-05-21T11:33:56 ICT" duration-ms="6846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_28_Navigate_Video -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:33:56 ICT" name="tearDown" finished-at="2026-05-21T11:33:56 ICT" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:33:56 ICT" name="setup" finished-at="2026-05-21T11:34:05 ICT" duration-ms="8947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_29_Navigate_ContactUs()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:34:05 ICT" name="SYS_29_Navigate_ContactUs" finished-at="2026-05-21T11:34:09 ICT" duration-ms="4551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_29_Navigate_ContactUs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.ecommerce.EcommerceSystemTests@5bbc9f97]" started-at="2026-05-21T11:34:09 ICT" name="tearDown" finished-at="2026-05-21T11:34:10 ICT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.system.ecommerce.EcommerceSystemTests -->
+      <class name="tests.system.product.ProductSystemTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:27:08 ICT" name="setup" finished-at="2026-05-21T11:27:14 ICT" duration-ms="6088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_07_Search_Product_System()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:27:14 ICT" name="SYS_07_Search_Product_System" finished-at="2026-05-21T11:27:24 ICT" duration-ms="9666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_07_Search_Product_System -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:27:24 ICT" name="tearDown" finished-at="2026-05-21T11:27:24 ICT" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:27:24 ICT" name="setup" finished-at="2026-05-21T11:27:36 ICT" duration-ms="12301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_08_Search_Invalid()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:27:36 ICT" name="SYS_08_Search_Invalid" finished-at="2026-05-21T11:27:55 ICT" duration-ms="18767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_08_Search_Invalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:27:55 ICT" name="tearDown" finished-at="2026-05-21T11:27:56 ICT" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:27:56 ICT" name="setup" finished-at="2026-05-21T11:28:05 ICT" duration-ms="9918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_14_View_Product_Detail_System()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:28:05 ICT" name="SYS_14_View_Product_Detail_System" finished-at="2026-05-21T11:28:13 ICT" duration-ms="7471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_14_View_Product_Detail_System -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:28:13 ICT" name="tearDown" finished-at="2026-05-21T11:28:13 ICT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:28:13 ICT" name="setup" finished-at="2026-05-21T11:28:26 ICT" duration-ms="12856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_15_Category_Women_Dress()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:28:26 ICT" name="SYS_15_Category_Women_Dress" finished-at="2026-05-21T11:28:37 ICT" duration-ms="11005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_15_Category_Women_Dress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:28:37 ICT" name="tearDown" finished-at="2026-05-21T11:28:37 ICT" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:28:37 ICT" name="setup" finished-at="2026-05-21T11:28:48 ICT" duration-ms="10911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_16_Category_Women_Tops()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:28:48 ICT" name="SYS_16_Category_Women_Tops" finished-at="2026-05-21T11:28:58 ICT" duration-ms="10012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_16_Category_Women_Tops -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:28:58 ICT" name="tearDown" finished-at="2026-05-21T11:28:58 ICT" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:28:58 ICT" name="setup" finished-at="2026-05-21T11:29:10 ICT" duration-ms="11635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_17_Category_Women_Saree()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:29:10 ICT" name="SYS_17_Category_Women_Saree" finished-at="2026-05-21T11:29:19 ICT" duration-ms="8838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_17_Category_Women_Saree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:29:19 ICT" name="tearDown" finished-at="2026-05-21T11:29:19 ICT" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:29:19 ICT" name="setup" finished-at="2026-05-21T11:29:29 ICT" duration-ms="10019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_18_Category_Men_Tshirts()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:29:29 ICT" name="SYS_18_Category_Men_Tshirts" finished-at="2026-05-21T11:29:39 ICT" duration-ms="10048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_18_Category_Men_Tshirts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:29:39 ICT" name="tearDown" finished-at="2026-05-21T11:29:40 ICT" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:29:40 ICT" name="setup" finished-at="2026-05-21T11:29:50 ICT" duration-ms="10419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_19_Category_Men_Jeans()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:29:50 ICT" name="SYS_19_Category_Men_Jeans" finished-at="2026-05-21T11:30:03 ICT" duration-ms="12661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_19_Category_Men_Jeans -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:30:03 ICT" name="tearDown" finished-at="2026-05-21T11:30:04 ICT" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:30:04 ICT" name="setup" finished-at="2026-05-21T11:30:14 ICT" duration-ms="10411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_20_Category_Kids_Dress()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:30:14 ICT" name="SYS_20_Category_Kids_Dress" finished-at="2026-05-21T11:30:25 ICT" duration-ms="10159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_20_Category_Kids_Dress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:30:25 ICT" name="tearDown" finished-at="2026-05-21T11:30:25 ICT" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:30:25 ICT" name="setup" finished-at="2026-05-21T11:30:37 ICT" duration-ms="12229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_21_Category_Kids_Tops_Shirts()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:30:37 ICT" name="SYS_21_Category_Kids_Tops_Shirts" finished-at="2026-05-21T11:30:46 ICT" duration-ms="8825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_21_Category_Kids_Tops_Shirts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:30:46 ICT" name="tearDown" finished-at="2026-05-21T11:30:46 ICT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:30:46 ICT" name="setup" finished-at="2026-05-21T11:30:56 ICT" duration-ms="9764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_22_Brands()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:30:56 ICT" name="SYS_22_Brands" finished-at="2026-05-21T11:31:02 ICT" duration-ms="6222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_22_Brands -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.product.ProductSystemTests@5ed190be]" started-at="2026-05-21T11:31:02 ICT" name="tearDown" finished-at="2026-05-21T11:31:03 ICT" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.system.product.ProductSystemTests -->
+      <class name="tests.system.auth.AuthSystemTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:25:04 ICT" name="setup" finished-at="2026-05-21T11:25:14 ICT" duration-ms="10427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_01_Register_New_Account()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:25:14 ICT" name="SYS_01_Register_New_Account" finished-at="2026-05-21T11:25:28 ICT" duration-ms="13963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_01_Register_New_Account -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:25:28 ICT" name="tearDown" finished-at="2026-05-21T11:25:28 ICT" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:25:28 ICT" name="setup" finished-at="2026-05-21T11:25:43 ICT" duration-ms="14407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_02_Register_Existing_Email()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:25:43 ICT" name="SYS_02_Register_Existing_Email" finished-at="2026-05-21T11:25:54 ICT" duration-ms="10846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_02_Register_Existing_Email -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:25:54 ICT" name="tearDown" finished-at="2026-05-21T11:25:54 ICT" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:25:54 ICT" name="setup" finished-at="2026-05-21T11:26:04 ICT" duration-ms="9977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_03_Login_System()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:26:04 ICT" name="SYS_03_Login_System" finished-at="2026-05-21T11:26:10 ICT" duration-ms="6204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_03_Login_System -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:26:10 ICT" name="tearDown" finished-at="2026-05-21T11:26:11 ICT" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:26:11 ICT" name="setup" finished-at="2026-05-21T11:26:21 ICT" duration-ms="10164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_04_Login_Invalid_Password()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:26:21 ICT" name="SYS_04_Login_Invalid_Password" finished-at="2026-05-21T11:26:38 ICT" duration-ms="16867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_04_Login_Invalid_Password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:26:38 ICT" name="tearDown" finished-at="2026-05-21T11:26:39 ICT" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:26:39 ICT" name="setup" finished-at="2026-05-21T11:26:48 ICT" duration-ms="9737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_05_Login_Empty_Email()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:26:48 ICT" name="SYS_05_Login_Empty_Email" finished-at="2026-05-21T11:26:52 ICT" duration-ms="3397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_05_Login_Empty_Email -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:26:52 ICT" name="tearDown" finished-at="2026-05-21T11:26:52 ICT" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:26:52 ICT" name="setup" finished-at="2026-05-21T11:27:04 ICT" duration-ms="12161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SYS_06_Login_Empty_Password()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:27:04 ICT" name="SYS_06_Login_Empty_Password" finished-at="2026-05-21T11:27:08 ICT" duration-ms="3467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SYS_06_Login_Empty_Password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.system.auth.AuthSystemTests@77b7ffa4]" started-at="2026-05-21T11:27:08 ICT" name="tearDown" finished-at="2026-05-21T11:27:08 ICT" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.system.auth.AuthSystemTests -->
+    </test> <!-- SystemTests -->
+  </suite> <!-- AutomationRegressionSuite -->
+</testng-results>

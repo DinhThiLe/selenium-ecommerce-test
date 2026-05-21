@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IntegrationSuite]">
+  <test thread-count="5" name="IntegrationTests(failed)">
+    <classes>
+      <class name="tests.integration.checkout.CheckoutIntegrationTests">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="INT_23_Login_Checkout_Payment"/>
+        </methods>
+      </class> <!-- tests.integration.checkout.CheckoutIntegrationTests -->
+      <class name="tests.integration.cart.CartIntegrationTests">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="INT_19_View_UpdateCart"/>
+        </methods>
+      </class> <!-- tests.integration.cart.CartIntegrationTests -->
+      <class name="tests.integration.auth.AuthIntegrationTests">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="INT_05_Login_Logout"/>
+          <include name="INT_08_Login_Retry"/>
+        </methods>
+      </class> <!-- tests.integration.auth.AuthIntegrationTests -->
+    </classes>
+  </test> <!-- IntegrationTests(failed) -->
+</suite> <!-- Failed suite [IntegrationSuite] -->
