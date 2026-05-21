@@ -131,19 +131,27 @@ public class AuthIntegrationTests extends BaseTest {
 
     @Test
     public void INT_08_Login_Retry() {
+        // 1. Mở trang Login/Signup
         clickJS(By.xpath("//a[contains(@href, '/login')]"));
         
-        driver.findElement(By.xpath("//input[@data-qa='login-email']")).sendKeys(Config.EMAIL);
+        // 2. Nhập sai email và password
+        driver.findElement(By.xpath("//input[@data-qa='login-email']")).sendKeys("wrongemail@example.com");
         driver.findElement(By.xpath("//input[@data-qa='login-password']")).sendKeys("wrongpass");
-        clickJS(By.xpath("//button[@data-qa='login-button']"));
-        waitVisible(By.xpath("//*[contains(text(), 'incorrect email or password')]"));
         
-        WebElement emailInput = driver.findElement(By.xpath("//input[@data-qa='login-email']"));
+        // 3. Click Login. Báo Your email or password is incorrect! thì lại ấn Login/Signup
+        clickJS(By.xpath("//button[@data-qa='login-button']"));
+        waitVisible(By.xpath("//*[contains(text(), 'Your email or password is incorrect!')]"));
+        clickJS(By.xpath("//a[contains(@href, '/login')]"));
+        
+        // 4. Nhập email và password đúng
+        WebElement emailInput = waitVisible(By.xpath("//input[@data-qa='login-email']"));
         emailInput.clear();
         emailInput.sendKeys(Config.EMAIL);
         WebElement passInput = driver.findElement(By.xpath("//input[@data-qa='login-password']"));
         passInput.clear();
         passInput.sendKeys(Config.PASSWORD);
+        
+        // 5. Click Login
         clickJS(By.xpath("//button[@data-qa='login-button']"));
         
         Assert.assertTrue(waitVisible(By.xpath("//a[contains(text(), 'Logged in as')]")).isDisplayed());

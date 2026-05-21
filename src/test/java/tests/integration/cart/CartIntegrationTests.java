@@ -51,23 +51,35 @@ public class CartIntegrationTests extends BaseTest {
 
     @Test
     public void INT_19_View_UpdateCart() {
+        // 1. Đăng nhập thành công
         login();
+        removeAds();
+
+        // 2. Vào Products
         clickJS(By.xpath("//a[contains(@href, '/products')]"));
         if(driver.getCurrentUrl().contains("#google_vignette")) driver.get("https://automationexercise.com/products");
-        
-        WebElement viewProd = waitVisible(By.xpath("(//ul[contains(@class,'nav')]/li/a[contains(@href, '/product_details')])[1]"));
+        removeAds();
+
+        // 3. Lướt và chọn 1 sản phẩm bất kỳ → View Product
+        WebElement viewProd = waitClickable(By.xpath("(//a[contains(text(),'View Product')])[1]"));
         scrollToElement(viewProd);
         clickJS(viewProd);
-        
+
+        // 4. Tại Quantity: click vào ô số rồi tăng số lượng lên 3
         WebElement qty = waitVisible(By.id("quantity"));
+        qty.click();
         qty.clear();
         qty.sendKeys("3");
-        
-        clickJS(By.xpath("//button[contains(@class, 'cart')]"));
+
+        // 5. Nhấn Add to cart
+        clickJS(By.xpath("//button[contains(@class,'cart')]"));
         waitVisible(By.xpath("//*[text()='Added!']"));
-        
+
+        // 6. Nhấn View Cart → kiểm tra Quantity = 3
         clickJS(By.xpath("//u[contains(text(),'View Cart')]"));
-        Assert.assertTrue(waitVisible(By.xpath("//button[text()='3']")).isDisplayed());
+        Assert.assertTrue(
+            waitVisible(By.xpath("//td[contains(@class,'cart_quantity')]/button[text()='3']")).isDisplayed()
+        );
     }
 
     @Test

@@ -5,6 +5,7 @@ on:
     branches: [ "main", "master" ]
   pull_request:
     branches: [ "main", "master" ]
+  workflow_dispatch:
 
 jobs:
   unit-tests:
@@ -23,6 +24,13 @@ jobs:
         sudo apt-get install -y google-chrome-stable
     - name: Run Unit Tests
       run: mvn clean test -Dsurefire.suiteXmlFiles=testng-unit.xml
+    - name: Upload Unit Test Report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: unit-test-report
+        path: target/surefire-reports/
+        retention-days: 7
 
   integration-tests:
     runs-on: ubuntu-latest
@@ -36,8 +44,19 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: 'maven'
+    - name: Install Google Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
     - name: Run Integration Tests
-      run: mvn test -Dsurefire.suiteXmlFiles=testng-integration.xml
+      run: mvn clean test -Dsurefire.suiteXmlFiles=testng-integration.xml
+    - name: Upload Integration Test Report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: integration-test-report
+        path: target/surefire-reports/
+        retention-days: 7
 
   system-tests:
     runs-on: ubuntu-latest
@@ -51,5 +70,32 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: 'maven'
+    - name: Install Google Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
     - name: Run System Tests
-      run: mvn test -Dsurefire.suiteXmlFiles=testng-system.xml
+      run: mvn clean test -Dsurefire.suiteXmlFiles=testng-system.xml
+    - name: Upload System Test Report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: system-test-report
+        path: target/surefire-reports/
+        retention-days: 7
+
+  slack-notification:
+    name: Slack Notification
+    runs-on: ubuntu-latest
+    needs: [unit-tests, integration-tests, system-tests]
+    if: always() # Run this job regardless of previous jobs' success or failure
+    steps:
+    - name: Send Slack Notification
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_COLOR: ${{ contains(needs.*.result, 'failure') && 'danger' || 'good' }}
+        SLACK_TITLE: 'Automation Test Result'
+        SLACK_MESSAGE: 'Test execution completed. Check artifacts for reports: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+        SLACK_USERNAME: 'CI/CD Bot'
+        SLACK_ICON_EMOJI: ':robot_face:'

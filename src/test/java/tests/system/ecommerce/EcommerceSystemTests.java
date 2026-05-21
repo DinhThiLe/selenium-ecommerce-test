@@ -24,11 +24,18 @@ public class EcommerceSystemTests extends BaseTest {
 
     @Test
     public void SYS_12_Subscription_System() {
+        // 1. Scroll xuống footer
+        removeAds();
+        WebElement footer = waitVisible(By.id("footer"));
+        scrollToElement(footer);
+        
+        // 2. Nhập email
         WebElement emailInput = waitVisible(By.id("susbscribe_email"));
-        scrollToElement(emailInput);
         emailInput.sendKeys("test@gmail.com");
+        
+        // 3. Click Subscribe và chờ thông báo
         clickJS(By.id("subscribe"));
-        Assert.assertTrue(waitVisible(By.xpath("//*[contains(text(),'Successfully subscribed!')]")).isDisplayed());
+        Assert.assertTrue(waitVisible(By.xpath("//*[contains(text(),'You have been successfully subscribed!')]")).isDisplayed());
     }
 
     @Test

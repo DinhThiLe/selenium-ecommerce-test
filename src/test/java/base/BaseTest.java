@@ -42,7 +42,7 @@ public class BaseTest {
         driver.manage().window().maximize();
 
         driver.manage().timeouts()
-                .implicitlyWait(Duration.ofSeconds(10));
+                .implicitlyWait(Duration.ofSeconds(2));
 
         driver.get("https://automationexercise.com");
 
