@@ -39,46 +39,30 @@ public class CheckoutIntegrationTests extends BaseTest {
 
     @Test
     public void INT_23_Login_Checkout_Payment() {
-        // 1. Đăng nhập thành công
         login();
-        removeAds();
-
-        // Vào Products
         clickJS(By.xpath("//a[contains(@href, '/products')]"));
         if(driver.getCurrentUrl().contains("#google_vignette")) driver.get("https://automationexercise.com/products");
-        removeAds();
-
-        // 2. Nhấn Add to cart
-        WebElement firstProductAdd = waitClickable(By.xpath("(//a[contains(@class,'add-to-cart')])[1]"));
+        
+        WebElement firstProductAdd = waitVisible(By.xpath("(//a[contains(@class,'add-to-cart')])[1]"));
         scrollToElement(firstProductAdd);
         clickJS(firstProductAdd);
         waitVisible(By.xpath("//*[text()='Added!']"));
-
-        // 3. View cart
+        
         clickJS(By.xpath("//u[contains(text(),'View Cart')]"));
-
-        // 4. Click Proceed To Checkout
         clickJS(By.linkText("Proceed To Checkout"));
-        removeAds();
-
-        // 5. Nhấn Place Order
-        WebElement placeOrder = waitClickable(By.linkText("Place Order"));
-        scrollToElement(placeOrder);
-        clickJS(placeOrder);
-
-        // 6. Nhập thông tin thanh toán
-        waitVisible(By.name("name_on_card")).sendKeys("Le Tester");
+        
+        clickJS(By.linkText("Place Order"));
+        
+        waitVisible(By.name("name_on_card")).sendKeys("Le");
         driver.findElement(By.name("card_number")).sendKeys("4242424242424242");
         driver.findElement(By.name("cvc")).sendKeys("123");
         driver.findElement(By.name("expiry_month")).sendKeys("12");
         driver.findElement(By.name("expiry_year")).sendKeys("2028");
-
-        // 7. Nhấn Pay and Confirm Order
-        WebElement submitBtn = waitClickable(By.id("submit"));
+        
+        WebElement submitBtn = driver.findElement(By.id("submit"));
         scrollToElement(submitBtn);
         clickJS(submitBtn);
-
-        // Kiểm tra Order Placed!
-        Assert.assertTrue(waitVisible(By.xpath("//*[contains(text(),'Order Placed')]")).isDisplayed());
+        
+        Assert.assertTrue(waitVisible(By.xpath("//*[contains(text(),'Order Placed!')]")).isDisplayed());
     }
 }

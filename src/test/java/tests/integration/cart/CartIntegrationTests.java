@@ -50,38 +50,69 @@ public class CartIntegrationTests extends BaseTest {
     }
 
     @Test
+   
     public void INT_19_View_UpdateCart() {
+        // Số lượng muốn thêm
+        String expectedQty = "3";
+
         // 1. Đăng nhập thành công
         login();
         removeAds();
 
+        // [MỚI] Xóa sạch giỏ hàng trước khi test để tránh ảnh hưởng từ số lượng của những test cũ
+        clickJS(By.xpath("//a[contains(text(), 'Cart')]"));
+        removeAds();
+        java.util.List<WebElement> deleteBtns = driver.findElements(By.className("cart_quantity_delete"));
+        for (WebElement btn : deleteBtns) {
+            clickJS(btn);
+            wait.until(org.openqa.selenium.support.ui.ExpectedConditions.stalenessOf(btn));
+        }
+
         // 2. Vào Products
         clickJS(By.xpath("//a[contains(@href, '/products')]"));
-        if(driver.getCurrentUrl().contains("#google_vignette")) driver.get("https://automationexercise.com/products");
+
+        if(driver.getCurrentUrl().contains("#google_vignette")) {
+            driver.get("https://automationexercise.com/products");
+        }
+
         removeAds();
 
-        // 3. Lướt và chọn 1 sản phẩm bất kỳ → View Product
-        WebElement viewProd = waitClickable(By.xpath("(//a[contains(text(),'View Product')])[1]"));
+        // 3. Chọn sản phẩm đầu tiên (sản phẩm 4)
+        WebElement viewProd = waitClickable(
+            By.xpath("(//a[contains(text(),'View Product')])[4]")
+        );
+
         scrollToElement(viewProd);
         clickJS(viewProd);
 
-        // 4. Tại Quantity: click vào ô số rồi tăng số lượng lên 3
+        // 4. Update quantity
         WebElement qty = waitVisible(By.id("quantity"));
+
         qty.click();
         qty.clear();
-        qty.sendKeys("3");
+        qty.sendKeys(expectedQty);
 
-        // 5. Nhấn Add to cart
+        // 5. Add to cart
         clickJS(By.xpath("//button[contains(@class,'cart')]"));
+
         waitVisible(By.xpath("//*[text()='Added!']"));
 
-        // 6. Nhấn View Cart → kiểm tra Quantity = 3
+        // 6. View Cart
         clickJS(By.xpath("//u[contains(text(),'View Cart')]"));
-        Assert.assertTrue(
-            waitVisible(By.xpath("//td[contains(@class,'cart_quantity')]/button[text()='3']")).isDisplayed()
+
+        // 7. Lấy quantity thực tế trong cart
+        WebElement quantityElement = waitVisible(
+            By.xpath("//td[contains(@class,'cart_quantity')]")
+        );
+
+        String actualQty = quantityElement.getText().trim();
+
+        // 8. Verify - Lúc này do giỏ hàng đã bị xóa sạch trước đó nên chắc chắn số lượng sẽ đúng bằng 3
+        Assert.assertEquals(
+            actualQty, expectedQty, 
+            "Quantity does not match! Expected: " + expectedQty + " but found: " + actualQty
         );
     }
-
     @Test
     public void INT_21_Remove_Product_From_Cart() {
         clickJS(By.xpath("//a[contains(@href, '/products')]"));
