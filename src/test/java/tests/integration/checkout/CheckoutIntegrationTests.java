@@ -64,5 +64,7 @@ public class CheckoutIntegrationTests extends BaseTest {
         clickJS(submitBtn);
         
         Assert.assertTrue(waitVisible(By.xpath("//*[contains(text(),'Order Placed!')]")).isDisplayed());
+        Assert.fail("Thanh toán thất bại");
     }
+ 
 }

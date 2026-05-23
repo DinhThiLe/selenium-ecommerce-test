@@ -21,10 +21,10 @@ public class RegisterPage extends BasePage {
         driver.findElement(By.id("password")).sendKeys("241003Le.");
         new Select(driver.findElement(By.id("days"))).selectByValue("17");
         new Select(driver.findElement(By.id("months"))).selectByValue("11");
-        new Select(driver.findElement(By.id("years"))).selectByValue("2003");
+        new Select(driver.findElement(By.id("years"))).selectByValue("2004");
         
         driver.findElement(By.id("first_name")).sendKeys("Le");
-        driver.findElement(By.id("last_name")).sendKeys("Tester");
+        driver.findElement(By.id("last_name")).sendKeys("Test");
         driver.findElement(By.id("company")).sendKeys("QA Company");
         driver.findElement(By.id("address1")).sendKeys("Ha Noi");
         new Select(driver.findElement(By.id("country"))).selectByVisibleText("India");

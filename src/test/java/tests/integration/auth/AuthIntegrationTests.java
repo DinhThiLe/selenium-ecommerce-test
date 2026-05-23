@@ -27,7 +27,7 @@ public class AuthIntegrationTests extends BaseTest {
     public void INT_01_Register_New_Account() {
         String randomEmail = "tester" + System.currentTimeMillis() + "@gmail.com";
         clickJS(By.xpath("//a[contains(@href, '/login')]"));
-        driver.findElement(By.xpath("//input[@data-qa='signup-name']")).sendKeys("Le Tester");
+        driver.findElement(By.xpath("//input[@data-qa='signup-name']")).sendKeys("Le Test");
         driver.findElement(By.xpath("//input[@data-qa='signup-email']")).sendKeys(randomEmail);
         clickJS(By.xpath("//button[@data-qa='signup-button']"));
         
@@ -40,7 +40,7 @@ public class AuthIntegrationTests extends BaseTest {
     public void INT_02_Register_Logout() {
         String randomEmail = "tester" + System.currentTimeMillis() + "@gmail.com";
         clickJS(By.xpath("//a[contains(@href, '/login')]"));
-        driver.findElement(By.xpath("//input[@data-qa='signup-name']")).sendKeys("Le Tester");
+        driver.findElement(By.xpath("//input[@data-qa='signup-name']")).sendKeys("Le Test");
         driver.findElement(By.xpath("//input[@data-qa='signup-email']")).sendKeys(randomEmail);
         clickJS(By.xpath("//button[@data-qa='signup-button']"));
         
@@ -75,7 +75,7 @@ public class AuthIntegrationTests extends BaseTest {
     @Test
     public void INT_04_Register_Missing() {
         clickJS(By.xpath("//a[contains(@href, '/login')]"));
-        driver.findElement(By.xpath("//input[@data-qa='signup-name']")).sendKeys("Le Tester");
+        driver.findElement(By.xpath("//input[@data-qa='signup-name']")).sendKeys("Le Test");
         driver.findElement(By.xpath("//input[@data-qa='signup-email']")).sendKeys("testergmail.com"); 
         clickJS(By.xpath("//button[@data-qa='signup-button']"));
         
@@ -110,6 +110,7 @@ public class AuthIntegrationTests extends BaseTest {
         
         WebElement productEl = waitVisible(By.xpath("//p[contains(text(),'Men Tshirt')]"));
         Assert.assertTrue(productEl.isDisplayed());
+        Assert.fail("Không tìm thấy sản phẩm");
     }
 
     @Test
@@ -155,6 +156,7 @@ public class AuthIntegrationTests extends BaseTest {
         clickJS(By.xpath("//button[@data-qa='login-button']"));
         
         Assert.assertTrue(waitVisible(By.xpath("//a[contains(text(), 'Logged in as')]")).isDisplayed());
+        Assert.fail("Intentional Fail for Test Report");
     }
 
     @Test
