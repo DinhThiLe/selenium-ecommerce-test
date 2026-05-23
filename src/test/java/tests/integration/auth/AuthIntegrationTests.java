@@ -110,7 +110,7 @@ public class AuthIntegrationTests extends BaseTest {
         
         WebElement productEl = waitVisible(By.xpath("//p[contains(text(),'Men Tshirt')]"));
         Assert.assertTrue(productEl.isDisplayed());
-        Assert.fail("Không tìm thấy sản phẩm");
+       
     }
 
     @Test
@@ -156,7 +156,6 @@ public class AuthIntegrationTests extends BaseTest {
         clickJS(By.xpath("//button[@data-qa='login-button']"));
         
         Assert.assertTrue(waitVisible(By.xpath("//a[contains(text(), 'Logged in as')]")).isDisplayed());
-        Assert.fail("Intentional Fail for Test Report");
     }
 
     @Test
