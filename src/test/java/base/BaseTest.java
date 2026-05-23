@@ -39,7 +39,9 @@ public class BaseTest {
         
         driver = new ChromeDriver(options);
 
-        driver.manage().window().maximize();
+        if (System.getenv("CI") == null || !System.getenv("CI").equals("true")) {
+            driver.manage().window().maximize();
+        }
 
         driver.manage().timeouts()
                 .implicitlyWait(Duration.ofSeconds(2));

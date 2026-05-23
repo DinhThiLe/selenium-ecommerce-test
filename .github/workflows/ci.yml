@@ -18,10 +18,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: 'maven'
-    - name: Install Google Chrome
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
+
     - name: Run Unit Tests
       run: mvn clean test -Dsurefire.suiteXmlFiles=testng-unit.xml
     - name: Upload Unit Test Report
@@ -44,10 +41,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: 'maven'
-    - name: Install Google Chrome
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
+
     - name: Run Integration Tests
       run: mvn clean test -Dsurefire.suiteXmlFiles=testng-integration.xml
     - name: Upload Integration Test Report
@@ -70,10 +64,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: 'maven'
-    - name: Install Google Chrome
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
+
     - name: Run System Tests
       run: mvn clean test -Dsurefire.suiteXmlFiles=testng-system.xml
     - name: Upload System Test Report
